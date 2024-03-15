@@ -1,0 +1,52 @@
+:root {
+	--primary: #07AB80;
+	--secondary: #5B636E;
+	--tertiary: #8F8E98;
+	--subtle: #DDDDDD;
+}
+
+html {
+	margin: 0;
+}
+
+
+
+/****** COLOR CLASSES ******/
+.primary1 {
+	background-color: var(--primary);
+}
+
+.secondary2 {
+	background-color: var(--secondary);
+}
+
+.tertiary3 {
+	background-color: var(--tertiary);
+}
+
+.subtle4 {
+	background-color: var(--subtle);
+}
+
+/***************************/
+
+
+.jumbotron {
+	background-image: url("assets/mountains.jpg");
+	background-size: cover;
+	background-position: top;
+}
+
+
+
+
+
+
+.dot {
+	border-radius: 50%;
+	display: inline-block;
+	line-height: 1em;
+	padding: .15em;
+
+	font-size: xx-large;
+}

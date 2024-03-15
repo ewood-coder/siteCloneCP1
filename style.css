@@ -10,8 +10,8 @@ html {
 }
 
 
-
-/****** COLOR CLASSES ******/
+/* ANCHOR: COLOR CLASSES */
+/*************************/
 .primary1 {
 	background-color: var(--primary);
 }
@@ -28,25 +28,78 @@ html {
 	background-color: var(--subtle);
 }
 
-/***************************/
+
+.textLight {
+	color: whitesmoke;
+}
+
+.textGreen {
+	color: var(--primary);
+}
+
+.textBlack {
+	color: black;
+}
+
+.textGrey {
+	color: var(--secondary);
+}
+
+/*************************/
 
 
+
+/*ANCHOR: HEADER CLASSES*/
+/*************************/
 .jumbotron {
 	background-image: url("assets/mountains.jpg");
 	background-size: cover;
 	background-position: top;
 }
 
+.btnHover:hover {
+	background-color: white;
+	border-color: var(--primary);
+	color: var(--primary);
+}
+
+
+.container1 {
+	position: relative;
+}
+
+.text-block1 {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	background-color: rgb(228, 50, 50, 0.5);
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*************************/
 
 
 
 
+/* ANCHOR: MAIN CLASSES */
+/*************************/
 
+
+/*************************/
+
+
+
+
+/*ANCHOR: FOOTER CLASSES*/
+/*************************/
 .dot {
 	border-radius: 50%;
 	display: inline-block;
 	line-height: 1em;
 	padding: .15em;
-
 	font-size: xx-large;
 }
+
+/*************************/

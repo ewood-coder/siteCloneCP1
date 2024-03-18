@@ -53,8 +53,10 @@ body {
 
 
 
-/*ANCHOR: HEADER CLASSES*/
+
+/* ANCHOR: MAIN CLASSES */
 /*************************/
+/*SECTION: Jumbotron section*/
 .jumbotron {
 	background-image: url("assets/mountains.jpg");
 	background-size: cover;
@@ -76,18 +78,6 @@ body {
 	border-radius: 50%;
 }
 
-/* .text-block1 {
-	position: absolute;
-	bottom: 28em;
-	right: 20em;
-	background-color: rgb(228, 50, 50, 0.5);
-	color: white;
-	padding-left: 20px;
-	padding-right: 20px;
-} */
-
-
-/*SECTION: header screen sizes*/
 /* X-SMALL screen */
 @media only screen and (max-width: 575px) {
 	.text-block1 {
@@ -185,13 +175,9 @@ body {
 	}
 }
 
-/*************************/
 
 
 
-
-/* ANCHOR: MAIN CLASSES */
-/*************************/
 
 /* SECTION: floating info box */
 .text-block2 {
@@ -200,7 +186,6 @@ body {
 	padding: 5px;
 }
 
-/*SECTION: floating info box screen sizes*/
 /* SMALL screen */
 @media only screen and (max-width: 767px) {
 	.text-block2 {
@@ -240,9 +225,52 @@ body {
 /* XX-LARGE screen */
 @media only screen and (min-width: 1400px) {
 	.text-block2 {
-		translate: 9em 5em;
+		translate: 5em 5em;
 		background-color: white;
 		padding: 5px;
+	}
+}
+
+/* 4K screen size */
+@media only screen and (min-width: 2560px) {
+	.text-block2 {
+		translate: 30em 5em;
+		background-color: white;
+		padding: 5px;
+	}
+}
+
+
+
+
+
+/* SECTION: product info section */
+.imgFix {
+	object-fit: cover;
+}
+
+.fs-6 {
+	font-size: 9em !important;
+}
+
+
+
+
+
+/* SECTION: customer review section */
+.fs-7 {
+	font-size: 4em !important;
+}
+
+@media only screen and (min-width: 576px) {
+	.fs-7 {
+		font-size: 2em !important;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.fs-7 {
+		font-size: 3em !important;
 	}
 }
 
@@ -259,6 +287,13 @@ body {
 	line-height: 1em;
 	padding: .15em;
 	font-size: xx-large;
+}
+
+@media only screen and (min-width: 992px) {
+	.pillChangeView {
+		padding: 1px;
+
+	}
 }
 
 /*************************/

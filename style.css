@@ -9,6 +9,10 @@ html {
 	margin: 0;
 }
 
+body {
+	font-family: "Jaldi", sans-serif;
+}
+
 
 /* ANCHOR: COLOR CLASSES */
 /*************************/
@@ -68,14 +72,117 @@ html {
 	position: relative;
 }
 
-.text-block1 {
+.ovalLong {
+	border-radius: 50%;
+}
+
+/* .text-block1 {
 	position: absolute;
-	bottom: 20px;
-	right: 20px;
+	bottom: 28em;
+	right: 20em;
 	background-color: rgb(228, 50, 50, 0.5);
 	color: white;
 	padding-left: 20px;
 	padding-right: 20px;
+} */
+
+
+/*SECTION: header screen sizes*/
+/* X-SMALL screen */
+@media only screen and (max-width: 575px) {
+	.text-block1 {
+		display: none;
+	}
+}
+
+/* SMALL screen */
+@media only screen and (max-width: 767px) {
+	.text-block1 {
+		position: absolute;
+		bottom: 15em;
+		right: 1px;
+		left: 500px;
+		background-color: rgb(228, 50, 50, 0);
+		color: white;
+		border-color: var(--primary) !important;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+/* MEDIUM screen */
+@media only screen and (min-width: 768px) {
+	.text-block1 {
+		position: absolute;
+		bottom: 5em;
+		right: 1px;
+		left: 400px;
+		background-color: rgb(228, 50, 50, 0);
+		color: white;
+		border-color: var(--primary) !important;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+/* LARGE screen */
+@media only screen and (min-width: 992px) {
+	.text-block1 {
+		position: absolute;
+		bottom: 5em;
+		right: 10px;
+		left: 400px;
+		background-color: rgb(228, 50, 50, 0);
+		color: white;
+		border-color: var(--primary) !important;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+/* X-LARGE screen */
+@media only screen and (min-width: 1200px) {
+	.text-block1 {
+		position: absolute;
+		bottom: 5em;
+		right: 10px;
+		left: 500px;
+		background-color: rgb(228, 50, 50, 0);
+		color: white;
+		border-color: var(--primary) !important;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+/* XX-LARGE screen */
+@media only screen and (min-width: 1400px) {
+	.text-block1 {
+		position: absolute;
+		bottom: 25em;
+		right: 10px;
+		left: 700px;
+		background-color: rgb(228, 50, 50, 0);
+		color: white;
+		border-color: var(--primary) !important;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+/* 4K screen */
+@media only screen and (min-width: 2560px) {
+	.text-block1 {
+		position: absolute;
+		bottom: 25em;
+		right: 10px;
+		left: 1000px;
+		background-color: rgb(228, 50, 50, 0);
+		color: white;
+		border-color: var(--primary) !important;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 
 /*************************/
@@ -86,6 +193,58 @@ html {
 /* ANCHOR: MAIN CLASSES */
 /*************************/
 
+/* SECTION: floating info box */
+.text-block2 {
+	translate: 9em 5em;
+	background-color: white;
+	padding: 5px;
+}
+
+/*SECTION: floating info box screen sizes*/
+/* SMALL screen */
+@media only screen and (max-width: 767px) {
+	.text-block2 {
+		translate: 0em 0em;
+		background-color: white;
+		padding: 5px;
+	}
+}
+
+/* MEDIUM screen */
+@media only screen and (min-width: 768px) {
+	.text-block2 {
+		translate: 2em 5em;
+		background-color: white;
+		padding: 5px;
+	}
+}
+
+/* LARGE screen */
+@media only screen and (min-width: 992px) {
+	.text-block2 {
+		translate: 3em 5em;
+		background-color: white;
+		padding: 5px;
+	}
+}
+
+/* X-LARGE screen */
+@media only screen and (min-width: 1200px) {
+	.text-block2 {
+		translate: 5em 5em;
+		background-color: white;
+		padding: 5px;
+	}
+}
+
+/* XX-LARGE screen */
+@media only screen and (min-width: 1400px) {
+	.text-block2 {
+		translate: 9em 5em;
+		background-color: white;
+		padding: 5px;
+	}
+}
 
 /*************************/
 
